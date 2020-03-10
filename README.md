@@ -1,2 +1,2 @@
 # SE-A1
-repository created for Software engineer assignment 1
+Repository created for Software engineer assignment 1
