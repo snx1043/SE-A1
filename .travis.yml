@@ -1,1 +1,7 @@
 language: java
+dist: xenial
+language: java
+addons:
+  apt:
+    packages:
+      - ant
