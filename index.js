@@ -1,29 +1,21 @@
-// console.log('hello world');
-// let num = 0;
-// num++;
-console.log('ggg');
+const readline = require('readline');
 
-// const demo = require('./demo');
-// console.log(demo);
-// console.log(demo.sum1(1,5));
-// console.log(demo.sqare(5));
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-// const event1 = require('events');
-// const events = new event1();
 
-// events.on('r', () =>{
-//     console.log('1');
-// })
-// // event1.on('hi', () =>{
-// //     console.log('3')
-// // })
+let num1 = Math.floor((Math.random() * 10) +1);
+let num2 = Math.floor((Math.random() * 10) +1);
+let answer = num1 + num2 ;
 
-// events.emit('r');
-// // event1.emit('hi');
 
-// const readline = require('rea')
-// document.get
-
-//console.log(window);
-var m = 'df';
-console.log(m);
+rl.question('What is ' + num1 + ' + ' + num2 + '? ', (input) => {
+  if (answer == input){
+    console.log("Correct!");
+    rl.close();
+  }else{
+    console.log("Wrong!");
+    rl.close()
+  }});
