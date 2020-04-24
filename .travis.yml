@@ -5,4 +5,7 @@ script:
   - echo 'Build starts!!'
   - yarn
   - echo 'Testing!'
-
+deploy:
+  provider: heroku:git
+  api_key: 6b30b9aa-cafc-4e19-9c1a-7f6c352f56fe
+  edge: true # opt in to dpl v2
