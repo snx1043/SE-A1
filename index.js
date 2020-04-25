@@ -1,21 +1,14 @@
-const readline = require('readline');
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
+const port = process.env.PORT || 5000;
+const express = require('express');
+const app = express();
+
+app.get('/', (req,res) => {
+    res.send('Hello World');
 });
 
+app.get('/test', (req,res) => {
+    res.send([2,3,4]);
+});
 
-let num1 = Math.floor((Math.random() * 10) +1);
-let num2 = Math.floor((Math.random() * 10) +1);
-let answer = num1 + num2 ;
-
-
-rl.question('What is ' + num1 + ' + ' + num2 + '? ', (input) => {
-  if (answer == input){
-    console.log("Correct!");
-    rl.close();
-  }else{
-    console.log("Wrong!");
-    rl.close()
-  }});
+app.listen(3000, () => console.log(`Listening on port ${port}...`))

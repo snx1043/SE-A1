@@ -1,0 +1,24 @@
+{
+  "name": "SE-A1",
+  "version": "1.0.0",
+  "description": "Repository created for Software engineer assignment 1 <br> Experimental version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snx1043/SE-A1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snx1043/SE-A1/issues"
+  },
+  "homepage": "https://github.com/snx1043/SE-A1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
