@@ -20,8 +20,5 @@ function checkInput(num1, num2) {
         return true;
     }
 }
-function hello() {
-    return 'hello';
-}
 
 module.exports = { cal, checkInput, hello };
