@@ -19,9 +19,3 @@
 //     console.log("Wrong!");
 //     rl.close()
 //   }});
-
-// const h1 = document.getElementById('h1');
-// const p1 = document.getElementById('p1');
-
-// p1.innerText= '';
-// console.l
