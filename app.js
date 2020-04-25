@@ -21,4 +21,4 @@ function checkInput(num1, num2) {
     }
 }
 
-module.exports = { cal, checkInput, hello };
+module.exports = { cal, checkInput };
