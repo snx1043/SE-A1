@@ -1,5 +1,5 @@
 {
-  "name": "se-a1",
+  "name": "SE-A1",
   "version": "1.0.0",
   "description": "Repository created for Software engineer assignment 1 <br> Experimental version",
   "main": "index.js",
@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/snx1043/SE-A1#readme",
   "dependencies": {
-    "chai": "^4.2.0",
     "express": "^4.17.1",
     "mocha": "^7.1.1"
   }
