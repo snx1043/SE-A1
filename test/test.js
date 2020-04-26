@@ -1,5 +1,5 @@
 const assert = require('assert');
-const app = require('../app');
+const app = require('../demo');
 
 describe('calulation', function () {
     it('To test the calulation function', function () {
