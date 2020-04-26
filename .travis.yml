@@ -2,9 +2,6 @@ language: node_js
 node_js:
 - '8'
 - "12.16"
-
-cache:
-- npm
 deploy:
   provider: heroku:git
   api_key: dec01a85-20aa-4a17-bb5d-8c6e6dee9e0a
