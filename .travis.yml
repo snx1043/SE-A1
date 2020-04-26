@@ -6,6 +6,7 @@ node_js:
 cache:
 - npm
 deploy:
+  skip_cleanup: true
   provider: heroku:git
   api_key: dec01a85-20aa-4a17-bb5d-8c6e6dee9e0a
   edge: true
