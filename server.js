@@ -10,7 +10,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-app.use('/cal', express.static('index'));
 
 const uri = process.env.ATLAS_URI;
 console.log(uri);
@@ -26,6 +25,7 @@ const usersRouter = require('./routes/users');
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
+app.use('/cal', express.static('index'));
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
