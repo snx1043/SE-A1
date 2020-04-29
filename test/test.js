@@ -2,17 +2,17 @@ const mocha = require('mocha');
 const assert = require('assert');
 const app = require('../demo');
 
-describe('calulation', function () {
-    it('To test the calulation function', function () {
+describe('To test the calulation function', function () {
+    it('Testing add ', function () {
         assert.equal(app.cal('+', 3, 4), 'Answer : 3 + 4 = 7');
     });
-    it('To test the calulation function', function () {
+    it('Testing multiply ', function () {
         assert.equal(app.cal('*', 3, 4), 'Answer : 3 * 4 = 12');
     });
-    it('To test the calulation function', function () {
+    it('Testing minus ', function () {
         assert.equal(app.cal('-', 10, 4), 'Answer : 10 - 4 = 6');
     });
-    it('To test the calulation function', function () {
+    it('Testing divide ', function () {
         assert.equal(app.cal('/', 4, 2), 'Answer : 4 / 2 = 2');
     });
 });
